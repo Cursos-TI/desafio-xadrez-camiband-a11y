@@ -14,6 +14,7 @@ int main() {
         printf("Para movimentar o BISPO: digite 1\n");
         printf("Para movimentar a TORRE: digite 2\n");
         printf("Para movimentar a RAINHA: digite 3\n");
+        printf("Para movimentar o CAVALO: digite 4\n");
         scanf("%d", &opcao);
 
         switch (opcao) 
@@ -62,19 +63,31 @@ int main() {
     }
 
 
-  default:
-                printf("O numero que voce digitou nao eh valido\n");
-            break;
-        }
-
 
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
 
+case 4: {
+            printf("Voce escolheu movimentar o CAVALO! \n");
+
+        int movimentocavalo = 1; 
+
+        while (movimentocavalo--)
+        {
+            for (int i =0; i , 2; i++) {
+                printf("Cima\n");
+            }
+            printf("Direita\n");
+        break;
+    }
 
 
 
+  default:
+                printf("O numero que voce digitou nao eh valido\n");
+            break;
+        }
 
 
     // Nível Mestre - Funções Recursivas e Loops Aninhados
