@@ -68,21 +68,18 @@ int main() {
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
 
-case 4: {
+case 4: 
             printf("Voce escolheu movimentar o CAVALO! \n");
 
-        int movimentocavalo = 1; 
-
-        while (movimentocavalo--)
-        {
-            for (int i =0; i , 2; i++) {
-                printf("Cima\n");
+        int movimentoCavalo = 1;
+            while (movimentoCavalo--) {
+              
+                for (int j = 0; j < 2; j++) {
+                    printf("Cima\n");
+                }
+                printf("Direita\n");
             }
-            printf("Direita\n");
-        break;
-    }
-
-
+            break;
 
   default:
                 printf("O numero que voce digitou nao eh valido\n");
